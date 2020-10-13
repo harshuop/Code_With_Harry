@@ -1,4 +1,6 @@
 y = 45
+num = 0
+
 print('Your total number of chances = 9')
 print('Chances you have used: ' + str(num) + '\n')
 
