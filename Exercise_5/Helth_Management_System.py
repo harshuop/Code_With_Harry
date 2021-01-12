@@ -27,9 +27,9 @@ class Helth_Management_System:
 					storage.write(x + ' ' + self.work_done + '\n')
 			elif self.work.lower() == 'r':
 				with open(file_hrd) as storage:
-					print('\tHarry Diet History: \n' + storage.read())
+					print('\n-----------------------------\n\tHarry Diet History: \n' + storage.read())
 				with open(file_hrw) as storage:
-					print('\n\tHarry Workout Done: \n' + storage.read())
+					print('\tHarry Workout Done: \n' + storage.read() + '-----------------------------')
 
 		elif self.name == 102:
 			if self.work.lower() == 'd':
@@ -40,9 +40,9 @@ class Helth_Management_System:
 					storage.write(x + ' ' + self.work_done + '\n')
 			else:
 				with open(file_hdd) as storage:
-					print('\tHammad Diet History: \n' + storage.read())
+					print('\n-----------------------------\n\tHammad Diet History: \n' + storage.read())
 				with open(file_hdw) as storage:
-					print('\n\tHammad Workout Done: \n' + storage.read())
+					print('\tHammad Workout Done: \n' + storage.read() + '-----------------------------')
 
 		elif self.name == 103:
 			if self.work.lower() == 'd':
@@ -53,6 +53,6 @@ class Helth_Management_System:
 					storage.write(x + ' ' + self.work_done + '\n')
 			else:
 				with open(file_rd) as storage:
-					print('\tRohan Diet History: \n' + storage.read())
+					print('\n-----------------------------\n\tRohan Diet History: \n' + storage.read())
 				with open(file_rw) as storage:
-					print('\n\tRohan Workout Done: \n' + storage.read())
+					print('\tRohan Workout Done: \n' + storage.read())
