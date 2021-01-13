@@ -1,0 +1,8 @@
+  [2021-01-14 00:57:10]
+Player Score: 8
+Computer Score: 0
+
+  [2021-01-14 00:57:31]
+Player Score: 2
+Computer Score: 4
+
